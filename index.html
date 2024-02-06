@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Web App</title>
+</head>
+<body>
+    <h1>Firebase Web App</h1>
+    
+    <form id="messageForm">
+        <label for="messageInput">Enter Message:</label>
+        <input type="text" id="messageInput" required>
+        <button type="submit">Send</button>
+    </form>
+
+    <ul id="messagesList"></ul>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
